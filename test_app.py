@@ -19,9 +19,13 @@ class TestAddFunction(unittest.TestCase):
         self.assertEqual(divide(0, 5), 0)
 
     def test_greet(self):
-        self.assertEqual(greet("Alice"), "Hello, Alice")  # Ajout d'une espace après la virgule
+        self.assertEqual(greet("Alice"), 
+                 "Hello, Alice") 
+
+        self.assertEqual(greet("Bob"), 
+                 "Hello, Bob") 
+
         self.assertEqual(greet(""), "Hello, World!")
-        self.assertEqual(greet("Bob"), "Hello, Bob")  # Ajout d'une espace après la virgule
 
 
 if __name__ == "__main__":
