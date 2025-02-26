@@ -1,0 +1,31 @@
+name: Run Linter
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'  # Modifie selon la version de Python que tu utilises
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # Assure-toi que tu as un fichier requirements.txt
+          pip install flake8  # Installation de flake8
+
+      - name: Run Linter
+        run: |
+          flake8 .  # Exécute flake8 sur le répertoire courant
