@@ -32,4 +32,4 @@ Ce dépôt contient un projet Python simple avec :
 
 
 [![Test Status](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/test.yml/badge.svg)](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/test.yml)
-[![Linter Status](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/linter.yml/badge.svg)](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/linter.yml)
+[![Run Linter](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/linter.yml)
