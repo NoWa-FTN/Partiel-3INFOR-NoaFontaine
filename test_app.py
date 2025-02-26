@@ -19,11 +19,15 @@ class TestAddFunction(unittest.TestCase):
         self.assertEqual(divide(0, 5), 0)
 
     def test_greet(self):
-        self.assertEqual(greet("Alice"), 
-                 "Hello, Alice") 
+        self.assertEqual(
+            greet("Alice"),
+            "Hello, Alice"
+        )
 
-        self.assertEqual(greet("Bob"), 
-                 "Hello, Bob") 
+        self.assertEqual(
+            greet("Bob"),
+            "Hello, Bob"
+        )
 
         self.assertEqual(greet(""), "Hello, World!")
 
