@@ -29,3 +29,7 @@ Ce dépôt contient un projet Python simple avec :
 7. Rendre le lien de votre répository contenant les github actions que vous aurez implémenté. 
 
 ***Attention à bien mettre votre repository en PUBLIC !***
+
+
+[![Test Status](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/test.yml/badge.svg)](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/test.yml)
+[![Linter Status](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/linter.yml/badge.svg)](https://github.com/NoWa-FTN/Partiel-3INFOR-NoaFontaine/actions/workflows/linter.yml)
